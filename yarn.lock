@@ -1428,6 +1428,10 @@ binary-extensions@^1.0.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.8.0.tgz#48ec8d16df4377eae5fa5884682480af4d95c774"
 
+bind-decorator@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/bind-decorator/-/bind-decorator-1.0.10.tgz#16b52bab374447585f1ed44a2d0fe8d336bd1a6e"
+
 bl@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/bl/-/bl-1.2.0.tgz#1397e7ec42c5f5dc387470c500e34a9f6be9ea98"
@@ -2469,6 +2473,10 @@ deep-eql@^1.0.3:
   dependencies:
     type-detect "^3.0.0"
 
+deep-equal@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
+
 deep-extend@~0.4.0:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.1.tgz#efe4113d08085f4e6f9687759810f807469e2253"
@@ -3042,6 +3050,10 @@ event-emitter@~0.3.5:
   dependencies:
     d "1"
     es5-ext "~0.10.14"
+
+event-listener-service@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/event-listener-service/-/event-listener-service-1.0.1.tgz#35d65b52f4efd3806d3d13d9d8ba29d6e804ddb6"
 
 eventemitter3@1.x.x:
   version "1.2.0"
@@ -6257,6 +6269,15 @@ react-hot-loader@3.0.0-beta.7:
     redbox-react "^1.3.6"
     source-map "^0.4.4"
 
+react-material-ui-keyboard:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/react-material-ui-keyboard/-/react-material-ui-keyboard-6.2.0.tgz#686bc45a772f7650ed211bb897131485ad14ce28"
+  dependencies:
+    bind-decorator "^1.0.10"
+    deep-equal "^1.0.1"
+    event-listener-service "^1.0.1"
+    object-assign "^4.1.0"
+
 react-mdl@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/react-mdl/-/react-mdl-1.9.0.tgz#e7f285c68639cab40f0c9fff0e91ec605563c4e8"
@@ -6281,7 +6302,15 @@ react-redux@^5.0.3:
     lodash-es "^4.2.0"
     loose-envify "^1.1.0"
 
-react-tap-event-plugin@^2.0.1:
+react-screen-keyboard:
+  version "1.3.10"
+  resolved "https://registry.yarnpkg.com/react-screen-keyboard/-/react-screen-keyboard-1.3.10.tgz#63be2f8d06e2ba952a7c08e22cff76936c344a0d"
+  dependencies:
+    css-loader "~0.23.1"
+    css-modules-require-hook "~4.0.1"
+    style-loader "~0.13.1"
+
+react-tap-event-plugin:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-tap-event-plugin/-/react-tap-event-plugin-2.0.1.tgz#316beb3bc6556e29ec869a7293e89c826a9074d2"
   dependencies:
